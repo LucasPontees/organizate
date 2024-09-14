@@ -10,7 +10,7 @@
           type="text"
           id="titulo"
           name="titulo"
-          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#7539FF]"
           placeholder="Digite o título da atividade"
           required
         />
@@ -23,7 +23,7 @@
           id="descricao"
           name="descricao"
           rows="4"
-          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#7539FF]"
           placeholder="Descreva a atividade"
           required
         ></textarea>
@@ -35,7 +35,7 @@
         <select
           id="status"
           name="status"
-          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#7539FF]"
           >
           <option value="pendente">Alta</option>
           <option value="concluida">Baixa</option>
@@ -47,7 +47,7 @@
       <div class="mb-4">
         <button
           type="submit"
-          class="w-full bg-indigo-600 text-white font-bold py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
+          class="w-full bg-[#7539FF] text-white font-bold py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
         >
           Enviar
         </button>
