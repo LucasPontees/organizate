@@ -5,7 +5,7 @@
       class="bg-white bg-opacity-80 hover:bg-opacity-90 transition-all rounded-lg shadow-lg p-6 w-full max-w-md"
     >
       <div class="text-center mb-6">
-        <h2 class="text-teal-600 text-2xl font-bold">Login</h2>
+        <h2 class="text-indigo-500 text-2xl font-bold">Login</h2>
       </div>
       <div>
         <form @submit.prevent="login">
@@ -17,8 +17,8 @@
               type="text"
               v-model="user"
               placeholder="Usuário"
-              class="w-full bg-gray-100 rounded-md py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
-            />
+              class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              />
           </div>
           <div class="mb-4">
             <label class="block text-gray-600 text-sm font-semibold mb-2"
@@ -28,14 +28,14 @@
               type="password"
               v-model="password"
               placeholder="Senha"
-              class="w-full bg-gray-100 rounded-md py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
           </div>
           <div>
             <button
               type="submit"
-              class="w-full bg-gray-800 text-white font-bold py-3 rounded-md hover:bg-teal-700 transition-all"
-            >
+              class="w-full bg-indigo-600 text-white font-bold py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
+              >
               Entrar
             </button>
           </div>
