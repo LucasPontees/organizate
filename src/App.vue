@@ -1,10 +1,9 @@
 <template>
-<div>
-    <router-view />
-
-</div>
+    <div>
+        <router-view />
+    </div>
 </template>
 
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
+import { RouterView } from 'vue-router'
 </script>
