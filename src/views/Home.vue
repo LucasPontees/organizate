@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 p-5 rounded shadow-md max-w-lg h-full max-h-100...">
+  <div class="bg-white p-5 rounded shadow-md max-w-lg h-full max-h-100...">
     <h2 class="text-2xl font-bold mb-6 text-gray-700 text-center">Cadastro de Atividade</h2>
 
     <form action="#" method="POST">
@@ -10,7 +10,7 @@
           type="text"
           id="titulo"
           name="titulo"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500"
+          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           placeholder="Digite o título da atividade"
           required
         />
@@ -23,7 +23,7 @@
           id="descricao"
           name="descricao"
           rows="4"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500"
+          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           placeholder="Descreva a atividade"
           required
         ></textarea>
@@ -35,8 +35,8 @@
         <select
           id="status"
           name="status"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500"
-        >
+          class="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          >
           <option value="pendente">Alta</option>
           <option value="concluida">Baixa</option>
           <option value="em_progresso">Média</option>
