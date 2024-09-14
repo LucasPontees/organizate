@@ -5,18 +5,19 @@
         <aside
           :class="`flex flex-col bg-gray-800 text-white min-h-screen p-4 transition-all duration-200 ease-in-out ${
             is_expanded ? 'w-64' : 'w-16'
-          }`"
+          } overflow-hidden`"
         >
           <div class="logo mb-4">
             <img :src="logoURL" alt="Vue" class="w-8" />
           </div>
 
           <div class="flex justify-end mb-4 transition-all duration-200 ease-in-out relative top-0">
-            <button class="transform transition-all duration-200 ease-in-out" @click="ToggleMenu">
+            <button aria-label="Toggle Sidebar " class="transform transition-all duration-200 ease-in-out" @click="ToggleMenu">
               <span
                 class="material-icons text-white text-2xl hover:text-blue-500 transform hover:translate-x-2"
-                >keyboard_double_arrow_right</span
               >
+                {{ is_expanded ? 'keyboard_double_arrow_left' : 'keyboard_double_arrow_right' }}
+              </span>
             </button>
           </div>
 
@@ -98,8 +99,9 @@ import { PerfectScrollbar } from 'vue3-perfect-scrollbar'
 import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
 
 const settings = ref({
-  suppresScrollX: true
+  suppressScrollX: true,  // Correção na ortografia
 })
+
 
 const scrollHanle = () => {}
 
@@ -118,5 +120,6 @@ const ToggleMenu = () => {
   width: 100%;
   height: 100vh;
   background-color: transparent !important;
+  overflow-x: hidden;
 }
 </style>
