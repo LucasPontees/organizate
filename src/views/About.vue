@@ -3,14 +3,14 @@
 </template>
 
 <script>
-import KanbanBoard from '@/components/KanbanBoard.vue'
+import KanbanBoard from '@/components/KanbanBoard.vue';
 
 export default {
     name: 'App',
     components: {
         KanbanBoard
     }
-}
+};
 </script>
 
 <style>

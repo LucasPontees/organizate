@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import KanbanColumn from './KanbanColumn.vue'
+import KanbanColumn from './KanbanColumn.vue';
 
 export default {
     name: 'KanbanBoard',
@@ -25,9 +25,9 @@ export default {
                 Deletadas: [],
                 Finalizadas: [{ id: 4, title: 'Tarefa 4', description: 'Descrição da tarefa 4' }]
             }
-        }
+        };
     }
-}
+};
 </script>
 
 <style scoped>

@@ -55,16 +55,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const user = ref<string>('admin')
-const password = ref<string>('admin')
+const user = ref<string>('admin');
+const password = ref<string>('admin');
 
 const login = () => {
     if (user.value === 'admin' && password.value === 'admin') {
-        window.location.href = '/defaultLayout'
+        window.location.href = '/defaultLayout';
     } else {
-        alert('Usuário ou senha inválidos')
+        alert('Usuário ou senha inválidos');
     }
-}
+};
 </script>

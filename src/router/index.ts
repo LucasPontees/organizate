@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/Home.vue'
-import DefaultLayout from '../layouts/DefaultLayout.vue'
-import About from '@/views/About.vue'
-import Login from '@/views/pages/auth/login.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '@/views/Home.vue';
+import DefaultLayout from '../layouts/DefaultLayout.vue';
+import About from '@/views/About.vue';
+import Login from '@/views/pages/auth/login.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -20,6 +20,6 @@ const router = createRouter({
             ]
         }
     ]
-})
+});
 
-export default router
+export default router;

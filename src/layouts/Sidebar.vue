@@ -106,23 +106,23 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import logoURL from '@/assets/logo.png'
-import { PerfectScrollbar } from 'vue3-perfect-scrollbar'
-import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
+import { ref } from 'vue';
+import logoURL from '@/assets/logo.png';
+import { PerfectScrollbar } from 'vue3-perfect-scrollbar';
+import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
 
 const settings = ref({
     suppressScrollX: true // Correção na ortografia
-})
+});
 
-const scrollHanle = () => {}
+const scrollHanle = () => {};
 
-const is_expanded = ref(localStorage.getItem('is_expanded') === 'true')
+const is_expanded = ref(localStorage.getItem('is_expanded') === 'true');
 
 const ToggleMenu = () => {
-    is_expanded.value = !is_expanded.value
-    localStorage.setItem('is_expanded', is_expanded.value)
-}
+    is_expanded.value = !is_expanded.value;
+    localStorage.setItem('is_expanded', is_expanded.value);
+};
 </script>
 
 <style scoped>

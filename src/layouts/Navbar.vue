@@ -123,10 +123,10 @@ import {
     MenuButton,
     MenuItem,
     MenuItems
-} from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+} from '@headlessui/vue';
+import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline';
 
-const navigation = [{ name: 'Criar', href: '/about', current: true }]
+const navigation = [{ name: 'Criar', href: '/about', current: true }];
 </script>
 
 <style scoped></style>

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import KanbanCard from './KanbanCard.vue'
+import KanbanCard from './KanbanCard.vue';
 
 export default {
     name: 'KanbanColumn',
@@ -25,5 +25,5 @@ export default {
             default: () => []
         }
     }
-}
+};
 </script>
